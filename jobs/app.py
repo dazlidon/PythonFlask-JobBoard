@@ -1,5 +1,5 @@
-import flask import Flask
-import render_template from flusk
+from flask import Flask
+from flusk import render_template
 app = Flask(__name__)
 
 @app.route('/')
